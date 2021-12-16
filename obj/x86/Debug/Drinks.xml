@@ -15,6 +15,10 @@ Drinks
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:Drinks.My.Resources.Resources.BaristaLady">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
 </member><member name="P:Drinks.My.Resources.Resources.Beverage">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -39,17 +43,33 @@ Drinks
 	<summary>
   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
 </summary>
+</member><member name="P:Drinks.My.Resources.Resources.Luvely">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Drinks.My.Resources.Resources.Malk">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Drinks.My.Resources.Resources.MMM">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
 </summary>
 </member><member name="P:Drinks.My.Resources.Resources.Orange">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Drinks.My.Resources.Resources.UserFOlder">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+</summary>
 </member><member name="P:Drinks.My.Resources.Resources.Walter">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Drinks.My.Resources.Resources.WorkPlaceGroovesHitLikeAndSmashSubscribeIfYouAgree">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
 </summary>
 </member><member name="T:Drinks.My.Resources.Resources">
 	<summary>

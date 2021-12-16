@@ -81,7 +81,7 @@ Partial Class Main
         'MilkButton
         '
         Me.MilkButton.Image = Global.Drinks.My.Resources.Resources.Malk
-        Me.MilkButton.Location = New System.Drawing.Point(129, 236)
+        Me.MilkButton.Location = New System.Drawing.Point(130, 236)
         Me.MilkButton.Name = "MilkButton"
         Me.MilkButton.Size = New System.Drawing.Size(112, 92)
         Me.MilkButton.TabIndex = 7
@@ -139,10 +139,10 @@ Partial Class Main
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.HelpButton = True
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
-        Me.HelpButton = True
         Me.Name = "Main"
         Me.Text = "Drinks"
         Me.ResumeLayout(False)
