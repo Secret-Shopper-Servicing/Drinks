@@ -23,6 +23,10 @@ Drinks
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:Drinks.My.Resources.Resources.BrokenMann">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:Drinks.My.Resources.Resources.Cofe">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -58,6 +62,10 @@ Drinks
 </member><member name="P:Drinks.My.Resources.Resources.Orange">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Drinks.My.Resources.Resources.TooManyDrinku">
+	<summary>
+  Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
 </summary>
 </member><member name="P:Drinks.My.Resources.Resources.UserFOlder">
 	<summary>

@@ -9,3 +9,15 @@ E:\User Folders\Documents\Visual Studio 2010\Projects\Drinks\Drinks\obj\x86\Debu
 E:\User Folders\Documents\Visual Studio 2010\Projects\Drinks\Drinks\obj\x86\Debug\Drinks.Main.resources
 E:\User Folders\Documents\Visual Studio 2010\Projects\Drinks\Drinks\obj\x86\Debug\Drinks.Helping.resources
 E:\User Folders\Documents\Visual Studio 2010\Projects\Drinks\Drinks\obj\x86\Debug\Drinks.DispensingPleaseWait.resources
+D:\User Folders\Documents\Visual Studio 2010\Projects\RealDrinks2022\Drinks\obj\x86\Debug\Drinks.exe
+D:\User Folders\Documents\Visual Studio 2010\Projects\RealDrinks2022\Drinks\obj\x86\Debug\Drinks.xml
+D:\User Folders\Documents\Visual Studio 2010\Projects\RealDrinks2022\Drinks\obj\x86\Debug\Drinks.pdb
+D:\User Folders\Documents\Visual Studio 2010\Projects\RealDrinks2022\Drinks\bin\Debug\Drinks.exe
+D:\User Folders\Documents\Visual Studio 2010\Projects\RealDrinks2022\Drinks\bin\Debug\Drinks.pdb
+D:\User Folders\Documents\Visual Studio 2010\Projects\RealDrinks2022\Drinks\bin\Debug\Drinks.xml
+D:\User Folders\Documents\Visual Studio 2010\Projects\RealDrinks2022\Drinks\obj\x86\Debug\Drinks.BrokenDrinks.resources
+D:\User Folders\Documents\Visual Studio 2010\Projects\RealDrinks2022\Drinks\obj\x86\Debug\Drinks.Helping.resources
+D:\User Folders\Documents\Visual Studio 2010\Projects\RealDrinks2022\Drinks\obj\x86\Debug\Drinks.Main.resources
+D:\User Folders\Documents\Visual Studio 2010\Projects\RealDrinks2022\Drinks\obj\x86\Debug\Drinks.Resources.resources
+D:\User Folders\Documents\Visual Studio 2010\Projects\RealDrinks2022\Drinks\obj\x86\Debug\Drinks.DispensingPleaseWait.resources
+D:\User Folders\Documents\Visual Studio 2010\Projects\RealDrinks2022\Drinks\obj\x86\Debug\Drinks.vbproj.GenerateResource.Cache

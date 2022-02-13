@@ -1,5 +1,6 @@
 ﻿Public Class Main
     Dim Drink As String
+    Dim DrinkCount As Integer = 0
     Private Sub Main_HelpButtonClicked(ByVal sender As Object, ByVal e As System.ComponentModel.CancelEventArgs) Handles Me.HelpButtonClicked
         Helping.ShowDialog()
         My.Computer.Audio.Play(My.Resources.WorkPlaceGroovesHitLikeAndSmashSubscribeIfYouAgree, AudioPlayMode.BackgroundLoop)
@@ -18,8 +19,16 @@
     End Sub
 
     Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MilkButton.Click, WaterButton.Click, BeverageButton.Click, CoffeeButton.Click, OrangeButton.Click
-        DispensingPleaseWait.ShowDialog()
-        My.Computer.Audio.Play(My.Resources.WorkPlaceGroovesHitLikeAndSmashSubscribeIfYouAgree, AudioPlayMode.BackgroundLoop)
+        DrinkCount = DrinkCount + 1
+
+        If DrinkCount > 5 Then
+            My.Computer.Audio.Stop()
+            My.Computer.Audio.PlaySystemSound(Media.SystemSounds.Asterisk)
+            BrokenDrinks.Show()
+        Else
+            DispensingPleaseWait.ShowDialog()
+            My.Computer.Audio.Play(My.Resources.WorkPlaceGroovesHitLikeAndSmashSubscribeIfYouAgree, AudioPlayMode.BackgroundLoop)
+        End If
     End Sub
 
     Private Sub Main_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
