@@ -6,9 +6,7 @@
     End Sub
 
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        MessageBox.Show("shutdown.exe /s /t 10 /c How dare..", "Debug")
-        Me.Hide()
-        'Process.Start("shutdown.exe", "/s /t 10 /c How dare..")
+        Process.Start("shutdown.exe", "/s /t 10 /c How dare..")
     End Sub
 
     Private Sub PUNISHMENT_Shown(sender As Object, e As EventArgs) Handles Me.Shown
