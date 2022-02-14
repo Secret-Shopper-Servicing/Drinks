@@ -22,6 +22,7 @@ Partial Class Main
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Main))
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
@@ -32,6 +33,7 @@ Partial Class Main
         Me.CoffeeButton = New System.Windows.Forms.Button()
         Me.WaterButton = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.WeLoveDrinks = New System.Windows.Forms.Timer(Me.components)
         Me.SuspendLayout()
         '
         'Label2
@@ -39,7 +41,7 @@ Partial Class Main
         Me.Label2.AutoSize = True
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Palace Script MT", 72.0!, CType(((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic) _
-                        Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+                Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.MistyRose
         Me.Label2.Location = New System.Drawing.Point(4, 138)
         Me.Label2.Name = "Label2"
@@ -53,12 +55,11 @@ Partial Class Main
         Me.Label3.BackColor = System.Drawing.Color.Salmon
         Me.Label3.Font = New System.Drawing.Font("MingLiU_HKSCS-ExtB", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.MistyRose
-        Me.Label3.Location = New System.Drawing.Point(235, 149)
+        Me.Label3.Location = New System.Drawing.Point(228, 147)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(119, 72)
+        Me.Label3.Size = New System.Drawing.Size(131, 72)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Do You Ever Find" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Yourself In Need Of" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Drinks And Thirst ?" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Use This For The" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Onl" & _
-            "y Best Drinks In" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "The World!" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label3.Text = "Are You In Need Of" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Drinks And Thirst ?" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Use This For The" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Best Drinks In World!" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Only 5 A Day!!"
         '
         'HelperButton
         '
@@ -123,6 +124,11 @@ Partial Class Main
         Me.Panel1.Size = New System.Drawing.Size(391, 141)
         Me.Panel1.TabIndex = 0
         '
+        'WeLoveDrinks
+        '
+        Me.WeLoveDrinks.Enabled = True
+        Me.WeLoveDrinks.Interval = 20000
+        '
         'Main
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -158,5 +164,5 @@ Partial Class Main
     Friend WithEvents MilkButton As System.Windows.Forms.Button
     Friend WithEvents HelperButton As System.Windows.Forms.Button
     Friend WithEvents OrangeButton As System.Windows.Forms.Button
-
+    Friend WithEvents WeLoveDrinks As Timer
 End Class

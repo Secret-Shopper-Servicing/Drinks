@@ -121,7 +121,7 @@
   <data name="Panel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAXEAAACPCAIAAACDCnwuAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wwAADsMBx2+oZAAA/7JJREFUeF7svQV4I9mV9y2zLYstyZItZrBsy7Jly4wyMzMzMzMzM9ttN7mZmRmm
+        wQAADsEBuJFr7QAA/7JJREFUeF7svQV4I9mV9y2zLYstyZItZrBsy7Jly4wyMzMzMzMzM9ttN7mZmRmm
         e7qnaZhnMqHNZnmz73elcjudSSaTfTfJ5svb5/k/97kq3aKrOr8651apCvb/rOnpaPtYS9x4VFsqXkpC
         WRoj5WS0AxXjyyGECUnhQuM4C0pdoF1PnEdNkCLbgRsrJiRLTcpceDVe4nJ3QYEzt9hN1BnpOJboNRzv
         2Rft3Bnu2BPh2BJgXeLCHYqWn21POljhPxavWMzy3lcTfbQubDRWVhUoyfbgBwgIgRyjVDltJs19szio
@@ -1883,6 +1883,9 @@
         qYfoUF1V8EIFlCkFYUqBCxUQgG3YKCLtlFB2dJQ9IKp09P8HdLduvkBrkisAAAAASUVORK5CYII=
 </value>
   </data>
+  <metadata name="WeLoveDrinks.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         AAABAAUAQEAAAAEAIAAoQgAAVgAAADAwAAABACAAqCUAAH5CAAAgIAAAAQAgAKgQAAAmaAAAGBgAAAEA

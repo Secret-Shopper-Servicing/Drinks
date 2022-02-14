@@ -13,9 +13,15 @@
         Else
             O.Enabled = False
             My.Computer.Audio.PlaySystemSound(Media.SystemSounds.Asterisk)
-            MessageBox.Show("Lovely", "MMM")
-            My.Computer.Audio.Play(My.Resources.MMM, AudioPlayMode.WaitToComplete)
-            Me.Close()
+            If Me.Visible = True Then
+                MessageBox.Show("Lovely", "MMM")
+                My.Computer.Audio.Play(My.Resources.MMM, AudioPlayMode.WaitToComplete)
+                Me.Close()
+            End If
         End If
+    End Sub
+
+    Private Sub DispensingPleaseWait_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
     End Sub
 End Class
